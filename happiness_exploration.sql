@@ -10,6 +10,8 @@ Skills used: Aggregate functions, With clause, Subqueries, Unions, Case, Self-Jo
 select * from proyectos.happ_2018 h18
 select * from proyectos.happ_2019 h19
 
+
+
 -- Obtain the five countries with the highest score in the happiness index in the year 2019.
 select country_or_region, score
 from proyectos.happ_2019
@@ -50,6 +52,7 @@ WITH average_per_year AS (
     FROM proyectos.happ_2018 h18
     INNER JOIN proyectos.happ_2019 h19 ON h18.country_or_region = h19.country_or_region
 )
+
 SELECT 
     CASE 
         WHEN (average_2019 - average_2018) = 0 THEN 'Stayed same'
@@ -58,12 +61,32 @@ SELECT
     END AS score_change
 FROM average_per_year;
 
--- Get the country with the highest score in "freedom_to_make_life_choices" in 2018 and its ranking.
 
+-- Get the country with the highest/lowest score in "freedom_to_make_life_choices" in 2018 and its ranking.
+select country_or_region, freedom_to_make_life_choices
+from proyectos.happ_2018 
+where freedom_to_make_life_choices = (select Max(freedom_to_make_life_choices) from proyectos.happ_2018)
+union 
+select country_or_region, freedom_to_make_life_choices
+from proyectos.happ_2018 
+where freedom_to_make_life_choices = (select Min(freedom_to_make_life_choices) from proyectos.happ_2018)
+order by freedom_to_make_life_choices desc;
 
+-- Average score (2018 & 2019)
+select '2018' as year, round(avg(score),2) from proyectos.happ_2018 -- 4740,95
+union
+select '2019' as year, round(avg(score),2) from proyectos.happ_2019 -- 5407,1
 
-
-
+-- Obtain the countries with a happiness score above the average in both years (2018 and 2019).
+WITH countries_score AS (
+  SELECT h18.country_or_region, h18.score AS country_score_2018, h19.score AS country_score_2019
+  FROM proyectos.happ_2018 h18
+  INNER JOIN proyectos.happ_2019 h19 ON h18.country_or_region = h19.country_or_region
+)
+SELECT country_or_region, country_score_2018, country_score_2019
+FROM countries_score
+WHERE country_score_2018 > (SELECT AVG(h18.score) FROM proyectos.happ_2018 h18) 
+	AND country_score_2019 > (SELECT AVG(h19.score) FROM proyectos.happ_2019 h19);
 
 
 
