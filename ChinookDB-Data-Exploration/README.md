@@ -16,12 +16,12 @@ This repository contains the **Chinook database** and a set of example SQL queri
 ## Usage Instructions
 
 ### 1. Clone the Repository
-
-To get started, clone this repository to your local machine:
+Clone the entire repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/chinook-database.git
-
+git clone https://github.com/RRLuis/SQL-Portfolio-Projects.git
+After cloning, navigate to the ChinookDB-Data-Exploration folder:
+cd SQL-Portfolio-Projects/ChinookDB-Data-Exploration
 
 ### 2. Import the Database
 
