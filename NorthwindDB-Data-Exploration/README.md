@@ -1,10 +1,10 @@
-Northwind Database Analysis
+**Northwind Database Analysis**
 
 Overview
 
 This project involves analyzing the Northwind database, a sample database that represents a fictional company called "Northwind Traders." The database contains data related to customers, orders, products, suppliers, employees, and more. The goal of this project is to explore the database, perform data analysis, and derive insights using SQL queries.
 
-Database Schema
+**Database Schema**
 
 The Northwind database includes the following key tables:
 
@@ -24,9 +24,9 @@ The Northwind database includes the following key tables:
 
     Shippers: Shipping companies used by Northwind Traders (e.g., ShipperID, CompanyName).
 
-Database Diagram: Northwind_db_diagram.png
+**Database Diagram: **Northwind_db_diagram.png
 
-SQL Queries
+**SQL Queries**
 
 The SQL queries used for the analysis are stored in the Northwind_Exploration_sql.sql file. These queries include:
 
