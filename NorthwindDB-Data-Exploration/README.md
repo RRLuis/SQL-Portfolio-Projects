@@ -24,7 +24,7 @@ The Northwind database includes the following key tables:
 
     Shippers: Shipping companies used by Northwind Traders (e.g., ShipperID, CompanyName).
 
-**Database Diagram: **
+Database Diagram
 Northwind_db_diagram.png
 
 **SQL Queries**
