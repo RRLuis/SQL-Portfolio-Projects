@@ -1,10 +1,10 @@
-Salary Data Exploration in SQL
+**Salary Data Exploration in SQL**
 Overview
 
 This project involves performing an exploratory data analysis (EDA) on a Salary Dataset using SQL. The dataset, sourced from Kaggle, contains information about salaries, job titles, education levels, years of experience, and gender. The goal of this project is to explore the dataset, uncover trends, and derive insights using SQL queries.
 Dataset Description
 
-The dataset includes the following columns:
+**The dataset includes the following columns:**
 
     Age: Age of the employee.
 
@@ -18,7 +18,7 @@ The dataset includes the following columns:
 
     Salary: Annual salary of the employee.
 
-SQL Queries
+**SQL Queries**
 
 The SQL queries used for the analysis are stored in the salary_exploration.sql file. These queries include:
 
@@ -38,7 +38,7 @@ The SQL queries used for the analysis are stored in the salary_exploration.sql f
 
     Identification of employees earning above the average salary for their job title.
 
-How to Use
+**How to Use**
 
     Download the Dataset: Download the dataset from Kaggle.
 
@@ -48,7 +48,7 @@ How to Use
 
     Explore Insights: Use the results of the queries to understand trends and patterns in the data.
 
-Key Insights
+**Key Insights**
 
     Average Salary by Education Level
 
@@ -60,13 +60,13 @@ Key Insights
 
     Average Years of Experience for Specific Job Titles
 
-Tools Used
+**Tools Used**
 
     SQL: For data exploration and analysis.
 
     Database Management System: PostgreSQL.
 
-Skills Demonstrated
+**Skills Demonstrated**
 
     Aggregate Functions: Used to calculate averages, maximums, and minimums.
 
