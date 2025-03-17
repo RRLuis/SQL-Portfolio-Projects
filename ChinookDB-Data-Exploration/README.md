@@ -18,7 +18,6 @@ This repository contains the **Chinook database** and a set of example SQL queri
 ### 1. Clone the Repository
 Clone the entire repository to your local machine:
 
-```bash
 git clone https://github.com/RRLuis/SQL-Portfolio-Projects.git
 After cloning, navigate to the ChinookDB-Data-Exploration folder:
 cd SQL-Portfolio-Projects/ChinookDB-Data-Exploration
@@ -32,7 +31,7 @@ Import the Chinook database (Chinook_db.sql) into your MySQL server (or any othe
 Once the database is imported, you can run the example queries located in the Chinook_exploration_sql.sql file
 
 
-Example Queries: 
+## Example Queries: 
 Here are some example queries you can find in the queries.sql file:
 
 -- Calculates the total spend for each customer and displays the customer's name along
@@ -51,7 +50,7 @@ left join project_chinook.album a on t.albumid = a.albumid
 where a.albumid is null;
 
 
-Requirements
+## Requirements
 
     MySQL, PostgreSQL, SQLite, or any other compatible database management system.
 
