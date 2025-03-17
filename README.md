@@ -73,7 +73,6 @@ This repository also includes additional SQL projects, each focusing on a unique
 
     Advanced SQL: Window functions, CTEs, and recursive queries.
 
-    Data Analysis: Trend analysis, segmentation, and correlation studies.
 
 # Tools and Technologies
 
