@@ -1,3 +1,4 @@
+# ChinookDB Data Exploration
 This repository contains the **Chinook database** and a set of example SQL queries. The Chinook database simulates a digital music store, with tables such as `Artist`, `Album`, `Track`, `Customer`, `Invoice`, and more. The SQL scripts provided are compatible with **PostgreSQL**.
 
 ## Repository Structure
