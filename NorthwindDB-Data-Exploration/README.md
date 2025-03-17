@@ -27,6 +27,7 @@ The Northwind database includes the following key tables:
 ## Database Diagram
 
 Northwind_db_diagram.png
+![image alt](https://github.com/RRLuis/SQL-Portfolio-Projects/blob/main/NorthwindDB-Data-Exploration/Northwind_db_diagram.png?raw=true)
 
 
 ## SQL Queries
