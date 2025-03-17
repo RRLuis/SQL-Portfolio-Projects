@@ -1,5 +1,5 @@
-Happiness Index (2018-2019) Data Exploration in SQL
-Overview
+# Happiness Index (2018-2019) Data Exploration in SQL
+## Overview
 
 This project focuses on performing an exploratory data analysis (EDA) on the Happiness Index (2018-2019) dataset using SQL. The dataset, sourced from Kaggle, contains metrics related to happiness scores and factors influencing happiness across different countries for the years 2018 and 2019.
 
@@ -32,7 +32,7 @@ Each table includes the following columns:
 
     Perceptions of corruption: Contribution of corruption perception to the happiness score.
 
-SQL Queries
+## SQL Queries
 
 The SQL queries used for the analysis are stored in the Happiness_Exploration.sql file. These queries include:
 
@@ -46,7 +46,7 @@ The SQL queries used for the analysis are stored in the Happiness_Exploration.sq
 
     Identification of top and bottom-performing countries in terms of happiness.
 
-How to Use
+## How to Use
 
     Download the Dataset: Download the dataset from Kaggle (data source: https://www.kaggle.com/datasets/sougatapramanick/happiness-index-2018-2019)
 
@@ -56,7 +56,7 @@ How to Use
 
     Explore Insights: Use the results of the queries to understand trends and patterns in the data.
 
-Key Insights
+## Key Insights
 
     Country with the biggest improvement in happiness score from 2018 to 2019.
 
@@ -66,7 +66,7 @@ Key Insights
 
     Regional Comparison
 
-Tools Used
+## Tools Used
 
     SQL: For data exploration and analysis.
 
